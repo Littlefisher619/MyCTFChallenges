@@ -1,5 +1,5 @@
 # Introduction
-[My Switch Game](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge2) and [Switch Pro Controller](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge2) are the challenges for the game [RCTF2020](https://ctftime.org/event/1045) hosted by ROIS.
+[My Switch Game](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge2) and [Switch Pro Controller](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge1) are the challenges for the game [RCTF2020](https://ctftime.org/event/1045) hosted by ROIS.
 
 *[Here for Chinese solution](https://github.com/Littlefisher619/MyCTFChallenges/blob/master/CTFChallengeSwitch/solution_zhcn.md)*
 # References
@@ -26,7 +26,7 @@ Debugger:
 
 * https://github.com/reswitched/Mephisto
 
-# Switch Pro Controller
+# Switch Pro Controller(Challenge1)
 
 Switch Pro Controller is connect to Windows with Steam installed through USB. Open the friend chat window, and then press the left stick three times to launch Steam's screen keyboard. Starting screen recording and Wireshark to capture the packets. You should get flag by the video file and the pcapng file.
 
@@ -114,7 +114,7 @@ for t in time_avg:
 
 
 
-# My Switch Game
+# My Switch Game(Challenge2)
 
 Develop a console-based snake game on switch. Playing game with switch controller which BT traffic is relayed by a script running on ubuntu. In order to solve it, you should do reserve engineering on game's .nro file and analysis the traffic. And the source code of snake game is based on https://github.com/CompSciOrBust/Cpp-Snake-NX/
 
