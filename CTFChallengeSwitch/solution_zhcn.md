@@ -1,5 +1,9 @@
 # 简介
-[My Switch Game](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge2) 和 [Switch Pro Controller](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge2) 是由ROIS举办的 [RCTF2020](https://ctftime.org/event/1045) 赛事中的两个题目。
+[My Switch Game](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge2) 和 [Switch Pro Controller](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge1) 是由ROIS举办的 [RCTF2020](https://ctftime.org/event/1045) 赛事中的两个题目。
+
+* My Switch Game: `Reserve`+`Misc`
+
+* Switch Pro Controller: `Misc`
 
 # 出题资料
 
@@ -25,7 +29,7 @@ Debugger:
 
 * https://github.com/reswitched/Mephisto
 
-# Switch Pro Controller
+# Switch Pro Controller(Challenge1)
 
 Switch手柄连接到装有Steam的Windows，打开Steam好友聊天窗口，通过按左摇杆三下启动屏幕键盘，启动屏幕录制和Wireshark抓包，并输入flag。选手根据录制的视频和USB数据包还原出flag。flag遵循RCTF{...}的格式。
 
@@ -113,7 +117,7 @@ for t in time_avg:
 
 
 
-# My Switch Game
+# My Switch Game(Challenge2)
 
 开发一个Switch平台上的控制台贪吃蛇游戏，基于Switch Homebrew进行开发，通过手柄控制游戏操作并进行抓包。解题需要逆向游戏软件的源代码并分析通信数据包，知道用户操作和程序代码的执行过程，以还原出flag。
 
