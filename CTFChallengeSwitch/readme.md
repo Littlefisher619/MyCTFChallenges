@@ -1,6 +1,10 @@
 # Introduction
 [My Switch Game](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge2) and [Switch Pro Controller](https://github.com/Littlefisher619/MyCTFChallenges/tree/master/CTFChallengeSwitch/Challenge1) are the challenges for the game [RCTF2020](https://ctftime.org/event/1045) hosted by ROIS.
 
+* My Switch Game: `Reserve`+`Misc`
+
+* Switch Pro Controller: `Misc`
+
 *[Here for Chinese solution](https://github.com/Littlefisher619/MyCTFChallenges/blob/master/CTFChallengeSwitch/solution_zhcn.md)*
 # References
 
